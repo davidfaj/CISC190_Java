@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="color_picker_array">
+        <item>Blue #0000FF</item>
+        <item>Green #00FF00</item>
+        <item>Red #FF3300</item>
+        <item>Yellow #FFFF00</item>
+    </string-array>
+</resources>

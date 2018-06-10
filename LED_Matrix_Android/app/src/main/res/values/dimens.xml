@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="ledSize">14dp</dimen>
+    <dimen name="ledMargin">3dp</dimen>
+    <integer name="timeOnSeconds">1</integer>
+</resources>

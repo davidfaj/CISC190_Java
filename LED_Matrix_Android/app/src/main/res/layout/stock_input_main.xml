@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stock prices"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_margin="@dimen/ledSize"/>
+
+    <EditText
+        android:id="@+id/stock_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f2f2f2"
+        android:layout_margin="@dimen/ledSize"
+        android:hint="Type a NYSE stock ticker here..."
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        android:maxLines="1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data source:\nGoogle (finance.google.com)\nNew York Stock Exchange (www.nyse.com)"
+        android:layout_margin="@dimen/ledSize"/>
+
+
+</LinearLayout>
